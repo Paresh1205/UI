@@ -116,28 +116,40 @@ header{
     margin-bottom: 20px;
 }
 
-.step4{
-    position: relative;
+.step3{
+    background-image: url('images/step3.png');
+    background-repeat: no-repeat;
 }
 
-.step4_a{
-    position: absolute;
-    top: 100px;
-    right: 100px;
+.step3>h2{
     font-size: 56px;
     letter-spacing: 6px;
     line-height: 74px;
     color: #db0002;
-    font-family: "Omnes";
     font-weight: 300;
+    text-align: right;
+}
+.step3>h3{   
+    height: 115px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #383838;
+    text-align: right;
 }
 
-
-
-
-
-
-
+.step3>button{
+    color: white;
+    padding: 7px 43px 6px;
+    letter-spacing: 3px;
+    text-align: center;
+    border: 0px;
+    border-radius: 15px;
+    background:#c53640;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    float: right
+}
 
 
 @media screen and (min-width: 768px){
