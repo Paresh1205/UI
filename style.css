@@ -40,6 +40,9 @@ header{
     padding-right: 50px;
     font-size: 18px;
 }
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:active{
+    color: #d92032;
+}
 
 #glyph{
     float: right;
@@ -115,13 +118,21 @@ header{
     margin-top: 12px;
     margin-bottom: 20px;
 }
-
 .step3{
-    background-image: url('images/step3.png');
-    background-repeat: no-repeat;
+    position: relative;
+    padding:0px;
 }
-
-.step3>h2{
+.step3>.sec_a>img{
+   width: 100%;
+}
+.step3>.sec_b{
+    position: absolute;
+    display: inline-block;
+    top: 90px;
+    right: 95px;
+    text-align: center;
+}
+.step3>.sec_b>h2{
     font-size: 56px;
     letter-spacing: 6px;
     line-height: 74px;
@@ -129,16 +140,16 @@ header{
     font-weight: 300;
     text-align: right;
 }
-.step3>h3{   
-    height: 115px;
+.step3>.sec_b>h3{   
+    height: 60px;
     font-size: 18px;
     letter-spacing: 0px;
     line-height: 25px;
     color: #383838;
-    text-align: right;
+    text-align: center;
 }
 
-.step3>button{
+.step3>.sec_b>button{
     color: white;
     padding: 7px 43px 6px;
     letter-spacing: 3px;
@@ -148,8 +159,162 @@ header{
     background:#c53640;
     margin-top: 12px;
     margin-bottom: 20px;
-    float: right
+   
 }
+
+.footer_a{
+    padding-top: 20px;
+    background: #f7f7f5;
+    color: #d92032;
+}
+
+.footer_a>div>.sec_a{
+    border-bottom: 1px solid grey;
+    padding-bottom: 9px;
+}
+
+.footer_a>div>.sec_a>.col-md-6{
+    text-align: right;
+}
+.footer_a>div>.col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer_a>div>.col-md-3{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 25px;
+}
+.footer_a>div>.sec_d>.fa{
+    color: #b9b8b8
+}
+
+.footer_a>div>.sec_e>button{
+    border: 2px solid #d92032;
+    color: #d92032;
+    background: white;
+    padding: 10px;
+    border-radius: 22px;
+    float: right;
+}
+
+.footer_b>div{
+    background-color: #e2e2e2;
+}
+
+.footer_b>div>section{
+    color: #d92032;
+}
+
+.footer_b>.col-md-12{
+    padding-top: 20px;
+    padding-bottom: 12px;
+
+}
+.footer_b>div>.sec_b{
+    text-align: right;
+}
+
+.footer_c>div{
+    background: #d9d8d8;
+}
+.footer_c>div{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.footer_c>div>section>p{
+    color: black;
+}
+.footer_c>div>section>.ad{
+    color: #d92032;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 768px){
